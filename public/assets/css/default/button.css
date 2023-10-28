@@ -1,0 +1,231 @@
+button {
+  position: relative;
+  outline: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: inherit;
+  z-index: 0;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+button span {
+  color: #164ca7;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+}
+button:hover span {
+  animation: storm 0.7s ease-in-out both;
+  animation-delay: 0.06s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+  25% {
+    transform: rotate(3deg) translate3d(0, 0, 0);
+  }
+  50% {
+    transform: rotate(-3deg) translate3d(0, 0, 0);
+  }
+  75% {
+    transform: rotate(1deg) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+}
+@keyframes storm {
+  0% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+  25% {
+    transform: translate3d(4px, 0, 0) translateZ(0);
+  }
+  50% {
+    transform: translate3d(-3px, 0, 0) translateZ(0);
+  }
+  75% {
+    transform: translate3d(2px, 0, 0) translateZ(0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+}
+.btn-pill:before, .btn-pill:after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #1d89ff;
+  content: "";
+  opacity: 0;
+  transition: transform 0.15s cubic-bezier(0.02, 0.01, 0.47, 1), opacity 0.15s cubic-bezier(0.02, 0.01, 0.47, 1);
+  z-index: -1;
+  transform: translate(100%, -25%) translate3d(0, 0, 0);
+}
+.btn-pill:hover:before, .btn-pill:hover:after {
+  opacity: 0.15;
+  transition: transform 0.2s cubic-bezier(0.02, 0.01, 0.47, 1), opacity 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+.btn-pill:hover:before {
+  transform: translate3d(50%, 0, 0) scale(0.9);
+}
+.btn-pill:hover:after {
+  transform: translate(50%, 0) scale(1.1);
+}
+
+.btn-shine {
+  border: 1px solid;
+  overflow: hidden;
+  position: relative;
+}
+.btn-shine span {
+  z-index: 20;
+}
+.btn-shine:after {
+  background: #38ef7d;
+  content: "";
+  height: 155px;
+  left: -75px;
+  opacity: 0.4;
+  position: absolute;
+  top: -50px;
+  transform: rotate(35deg);
+  transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+  width: 50px;
+  z-index: -10;
+}
+.btn-shine:hover:after {
+  left: 120%;
+  transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.btn-slide-line.center:after {
+  left: 50%;
+}
+.btn-slide-line:after {
+  position: absolute;
+  right: 0;
+  left: auto;
+  transition: 0.3s;
+  content: "";
+  width: 0;
+  bottom: 0;
+  height: 3px;
+  background: transparent;
+}
+.btn-slide-line:hover {
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+.btn-slide-line:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.btn-slide-line.btn-blue:after {
+  background: #5193f7;
+}
+.btn-slide-line.btn-blue:hover {
+  background: #5193f7;
+  color: white;
+}
+
+.inspire a {
+  text-decoration: none;
+}
+
+
+
+.previous-btn{
+    background: #346D4B;
+    color: #fff;
+    padding: 10px 21px;
+    border-radius: 5px;
+    letter-spacing: 0.1px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px !important;
+    font-weight: 600;
+}
+.previous-btn:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.next-btn{
+    background: #346D4B;
+    color: #fff;
+    padding: 10px 21px;
+    border-radius: 5px;
+    letter-spacing: 0.1px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px !important;
+    font-weight: 600;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.next-btn:hover{
+    text-decoration: none !important;
+    color: #fff;
+}
+
+.btn-redirect{
+    background: #346D4B !important;
+    color: #fff !important;
+    /* padding: 10px 21px; */
+    padding: 5px 10px;
+    border-radius: 5px;
+    letter-spacing: 0.1px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px !important;
+    font-weight: 600
+}
+
+.btn-redirect:hover{
+    text-decoration: none;
+    color: #fff;
+    background: #1D472E !important;
+    border: 1px solid #1D472E !important;
+}
+
+.save-btn{
+    background: #fff;
+    color: #346D4B;
+    padding: 10px 21px;
+    border-radius: 5px;
+    letter-spacing: 0.1px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px !important;
+    font-weight: 600;
+    box-shadow: 4px 3px 16px #346D4B3B;
+}
+.save-btn:hover{
+    background: #fff;
+    color: #346D4B;
+    text-decoration: none;
+}
+
+.custom-btn-save{
+    border: 1px solid #346D4B !important;
+}
+
+.custom-btn-save:hover{
+    text-decoration: none;
+    background: #1D472E;
+    color: #fff !important;
+    border: 1px solid #1D472E !important;
+}
+
+/*# sourceMappingURL=button.css.map */

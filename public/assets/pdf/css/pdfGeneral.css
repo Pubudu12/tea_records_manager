@@ -1,0 +1,289 @@
+.title-page{
+    color: #1f452e;
+    size: 24px;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab';
+    font-weight: 900;
+}
+
+
+/* Table Design */
+.table-bg-light-green{
+    background: #e9f0e9 !important;
+}
+.table-bg-light-yellow{
+    background-color: #fdf3d0 !important;
+}
+.table-bg-light-orange{
+    background-color: #fde2b3 !important;
+}
+.table-bg-light-blue{
+  background-color: #d2e2ed !important;
+}
+.table-bg-dark-green{
+  background-color: #246924 !important;
+}
+
+.table{
+    width: 100%;
+    border: 0 !important;
+    border-spacing:0 !important;
+}
+.table thead th{
+    padding: 6px 5px;
+    font-size: 12px;
+    text-align: center;
+}
+.table tr td{
+    padding: 6px 5px;
+    font-size: 8px;
+    text-align: center;
+}
+
+
+
+
+  .module-test {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    /* place-items: center; */
+    color: #ff43ea;
+    position: relative;
+  }
+  .module-test::before {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(https://images.unsplash.com/photo-1494645009625-cc17363a5f20?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=bd502af39c922553e5a13624d4f44f40);
+    background-size: cover;
+    /* filter: grayscale(100%); */
+  }
+  
+  .pdf-marketdashboard tr td{
+    font-size: 16px;
+  }
+
+  .pdf-marketdashboard .grey-border{
+    border: 1px solid grey !important;
+    border-left: unset !important;
+    border-right: unset !important;
+  }
+
+  .pdf-marketdashboard tr:last-child{
+    border-bottom: transparent !important;
+  }
+
+  .pdf-fist-row{
+    border-bottom: transparent !important;
+  }
+
+  .f-16{
+    font-size: 16px !important;
+  }
+
+  .w-600{
+    font-weight: 600;
+  }
+
+  .w-500{
+    font-weight: 500;
+  }
+
+  .font-grey{
+    color: grey !important;
+  }
+
+  .width-30{
+    width: 30%;
+  }
+
+  .width-40{
+    width: 40%;
+  }
+
+  .overallDetailTable tr td {
+    font-size: 16px;
+    border-bottom: 1px solid rgb(182, 182, 182) !important;
+    padding: 15px;
+  }
+
+  .refname{
+    text-align: left !important;
+  }
+
+  .level1-overall-names{
+    color: #004e03 !important;
+    font-size: 22px !important;
+    font-weight: bolder !important;
+  }
+
+.level2-overall-names{
+  font-weight: 700 !important;
+  padding-left: 20px !important;
+  font-size: 18px !important;
+  color: #2a8a2ebf !important;
+}
+
+.level3-overall-names{
+  padding-left: 40px !important;
+  font-size: 16px !important;
+}
+
+
+.font-green{
+  color: #198754;
+}
+
+.font-dark-green{
+  color: #004e03;
+}
+
+.arrow_up{
+  color: #004f03;
+}
+
+.arrow_down{
+  color: #9c0000;
+}
+
+.highlights-box{
+  background-color: #d3e1d3;
+  border: 5px solid #246924;
+  padding: 40px 70px;
+}
+
+.catlog-box-outer{
+  border: 3px solid #fadc67;
+  background-color: #f8e3bf;
+  margin-right: 40px;
+  width: 50%;
+}
+
+.catlog-inner{
+  padding: 20px 40px;
+}
+
+.date-text{
+  font-size: 14px;
+  border-bottom: 2px solid #4c8041;
+}
+
+.ctg-name, .ctg-value{
+  font-size: 16px !important;
+}
+
+.ctg-name{
+  color: #666666 !important;
+  font-weight: 600;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.justify-content-center{
+  /* justify-content: center; */
+}
+
+.justify-content-between{
+  /* justify-content: space-between; */
+}
+
+/* Margin top */
+.mt-1{
+	margin-top: .25rem !important;
+}
+
+.mt-2{
+	margin-top: .5rem !important; 
+}
+
+.mt-3{
+	margin-top: 1rem !important;
+}
+
+.mt-4{
+	margin-top: 1.5rem !important;
+}
+
+.mt-5{
+	margin-top: 3rem !important;
+}
+
+/* Margin bottom */
+.mb-1{
+	margin-bottom: .25rem !important;
+}
+
+.mb-2{
+	margin-bottom: .5rem !important;
+}
+
+.mb-3{
+	margin-bottom: 1rem !important;
+}
+
+.mb-4{
+	margin-bottom: 1.5rem !important;
+}
+
+.mb-5{
+	margin-bottom: 3rem !important;
+}
+
+/* margin left */
+.ml-1{
+	margin-left: .25rem !important;
+}
+
+.ml-2{
+	margin-left: .5rem !important;
+}
+
+.ml-3{
+	margin-left: 1rem !important;
+}
+
+.ml-4{
+	margin-left: 1.5rem !important;
+}
+
+.ml-5{
+	margin-left: 3rem !important;
+}
+
+/* Paddings */
+.pt-1{
+	padding-top: .25rem !important;
+}
+
+.text-white{
+  color: white;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.pdfButton{
+  background-color: #498ef7;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.pdfButton:hover{
+  background-color: #3879da;
+}
+
+.display-none{
+  display: none;
+}

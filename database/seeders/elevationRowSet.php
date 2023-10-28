@@ -1,0 +1,40 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+
+class elevationRowSet extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        DB::table('elevation_row_set')->insert([
+            [
+                'name' => 'High Grown Tea',
+                'code' => 'HGT',
+            ],
+            [
+                'name' => 'High Grown Tea',
+                'code' => 'HGT',
+            ],
+            [
+                'name' => 'High Grown Tea',
+                'code' => 'HGT',
+            ],
+            [
+                'name' => 'High Grown Tea',
+                'code' => 'HGT',
+            ],
+            [
+                'name' => 'High Grown Tea',
+                'code' => 'HGT',
+            ],
+        ]);
+    }
+}

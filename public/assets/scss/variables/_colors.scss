@@ -1,0 +1,32 @@
+$btnColors: (
+
+    btn-green:(
+        green:(
+            dd:red,
+        )
+    ),
+    btn-blue: (
+        background: #5193f7,
+        text: white
+    ),
+
+    btn-silver: (
+        background: silver,
+        text: black
+    ),
+
+    btn-red: (
+        background: #dd4b39,
+        text: white
+    ),
+
+    btn-orange: (
+        background: #e4a906,
+        text: white
+    ),
+
+    btn-black: (
+        background: black,
+        text: white
+    )
+)

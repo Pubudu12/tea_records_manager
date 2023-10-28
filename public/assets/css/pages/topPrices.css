@@ -1,0 +1,28 @@
+.topPrice-singletable thead tr{
+    background-color: #03180340 !important;
+}
+.topPrice-singletable thead td,
+.topPrice-singletable thead td h5{
+    padding: 0 5px;
+    margin: 0;
+}
+.topPrice-singletable tbody tr td{
+    text-align: right;
+}
+.topPrice-singletable tbody tr td input{
+    text-align: left;
+}
+
+.topPrice-singletable tbody tr td:first-child{
+    width: 50%;
+    text-align: left;
+}
+
+.topPrice-singletable tbody tr td:last-child{
+    width: 20%;
+    text-align: right;
+}
+
+.topPrice-singletable .mark-combo{
+    min-width: 50%;
+}

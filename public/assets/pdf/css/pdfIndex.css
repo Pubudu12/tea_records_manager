@@ -1,0 +1,67 @@
+.indexPage{
+    /* background: red; */
+}
+.indexPage .main-index-table *{
+    /* outline: 1px solid red; */
+}
+
+.indexPage .main-index-table{
+    width: 100%;
+}
+
+.indexPage .main-index-table .menu-singlebox{
+    width: 100%;
+}
+.indexPage .main-index-table .menu-singlebox .menu-title-box{
+    width: 100%;
+}
+.indexPage .main-index-table .menu-singlebox .menu-title-box table{
+    width: 90%;
+}
+.indexPage .main-index-table .menu-singlebox .menu-title-box table td:last-child{
+    width: 90%;
+    border-bottom: 4px solid #f6c401;
+}
+
+
+.indexPage .main-index-table .menu-singlebox img{
+    width: 40px;
+    /* float: left; */
+}
+
+.indexPage .main-index-table .menu-singlebox h4{
+    font-size: 22px;
+    font-family: 'Roboto Slab';
+    color: #1f3727;
+    font-weight: 900;
+    margin-bottom: 4px;
+    letter-spacing: 0px;
+}
+
+/* List */
+.indexPage .main-index-table .menu-list-ul{
+    list-style-image: url('../images/icons/content/listIcon.jpg');
+    margin-left: 10%;
+    width: 75%;
+}
+.indexPage .main-index-table .menu-list-ul li{
+    width: 100%;
+    line-height: 0;
+    font-weight: 400;
+}
+.indexPage .main-index-table .menu-list-ul li{
+    color: #4f332f;
+    font-size: 14px;
+}
+.indexPage .main-index-table .menu-list-ul li a{
+    width: 80%;
+    display: inline-block;
+    color: #4f332f;
+    text-transform: capitalize;
+}
+.indexPage .main-index-table .menu-list-ul li span{
+    display: inline-block;
+    width: 15%;
+    text-align: right;
+
+}

@@ -1,0 +1,114 @@
+.modal-lg {
+    max-width: 900px !important;
+    margin: 1.75rem auto !important;
+}
+.modal-title{
+    font-size: 20px !important;
+}
+.colour-blue{
+    background-color: #3758fd !important;
+    border-color: #3758fd !important;
+}
+.colour-red{
+    margin: 0px 20px;
+    background-color: #dd4b39 !important;
+    border-color: #dd4b39 !important;
+}
+.text-bold{
+    font-weight: bold !important;
+}
+.pro_name{
+    font-size: 18px !important;
+}
+.margin-top{
+    margin-top: 29px !important;
+}
+.colour-blue:hover{
+    background-color: #3758fd !important;
+    border-color: #3758fd !important;
+}
+.colour-red:hover{
+    background-color: #dd4b39 !important;
+    border-color: #dd4b39 !important;
+}
+.v-btn-tbl{
+    font-size: 14px !important;
+    width: auto !important;
+    height: auto !important;
+    color: #fff !important;
+}
+.btn.btn-icons {
+    padding: 7px;
+}
+.fa, .fas {
+    font-weight: 900 !important;
+}
+.pro-changes{
+    float: right !important;
+}
+.custom-select{
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+@media (min-width:1200px) and (max-width: 1500px) { 
+    .catalogue-section {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        /* padding-left: 50px;
+        padding-right: 50px; */
+        background: #fff;
+        background: #fff;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border-radius: 7px;
+        box-shadow: -5px 10px 8px #00000012;
+    }
+    .input-container i {
+        color: #fff;
+        padding-left: 8px;
+        padding-right: 8px;
+        background: #17462A;
+        padding-top: 9% !important;
+        padding-bottom: 9% !important;
+    }
+    .input-2-lm .lcl-mar-col input {
+        width: 70px !important;
+        /* width: 100px !important; */
+        border: 1px solid #80808080;
+    }
+}
+@media (min-width: 1500px) { 
+    .input-2-lm .lcl-mar-col input{
+        /* width: 70px !important; */
+        width: 100px !important;
+        border: 1px solid #80808080;
+    }
+    
+}

@@ -1,0 +1,7 @@
+/* marketDashboard */
+.marketDashboardTable tr td{
+    border-bottom: .0001em solid #c0c5c060;
+}
+.marketDashboardTable tr:last-child td{
+    border-bottom:  none;
+}
