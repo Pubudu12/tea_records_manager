@@ -48,7 +48,7 @@ class PDFGenerationController extends Controller
 
         }
 
-    }
+    }// end generateTestPDF
 
 
     public function generateAuctionHighlights($type){
