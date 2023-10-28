@@ -31,7 +31,7 @@ class PDFGenerationController extends Controller
 
     public function generateTestPDF($type){
 
-        $data = array('name' => "Sajeevan");
+        $data = array('name' => "ABC", "age" => "20", "address" => "XYZ");
 
         if($type == "html"){
             return View('_PDF.index',['data'=>$data, 'type'=>'html']);
